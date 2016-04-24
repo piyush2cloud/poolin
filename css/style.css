@@ -1,0 +1,25 @@
+.default {
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+    opacity: 1;
+}
+
+.fade {
+    -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 2s;
+    opacity: 0;
+}
+
+.outerdiv {
+    height: 100vh;
+}
+
+.firstdiv {
+    background-color: red;
+    height: 100%;
+}
+
+.seconddiv {
+    background-color: darkslateblue;
+    height: 100%;
+}
